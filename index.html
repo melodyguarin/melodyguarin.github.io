@@ -103,13 +103,13 @@
         <h2>Contact<span> Us</span></h2>
         <p>For more information, feel free to get in touch and I'll get back to you soon!</p>
 
-            <form id="Form" action="#">
+            <form id="Form" action="https://formspree.io/f/xleyjvyl" method="POST">
                 <div class="input-name">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                </div><input type="email" placeholder="Your Email">
-                <textarea id="" cols="20" rows="5" placeholder="Your Message"></textarea>
-                <a href="#contact" class="btn contact-btn">SUBMIT</a>
+                    <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+                    <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+                </div><input type="email" name="email" placeholder="Your Email" autocomplete="off" required>
+                <textarea id="" cols="20" rows="5" name="message" placeholder="Your Message" autocomplete="off" required></textarea>
+                <button type="submit">Submit</button>
             </form>
         </div>
         <div class="contact-container" data-aos="fade-left" id="contact">
@@ -122,7 +122,7 @@
             <div class="detail">
                 <i class="uil uil-envelopes"></i>
                 <h3>Email</h3>
-                <p>adno.guarin.up@phinmaed.com</p>
+                <p>melodyguarin06@gmail.com</p>
             </div>
             <div class="detail">
                 <i class="uil uil-location-pin-alt"></i>

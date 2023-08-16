@@ -298,7 +298,7 @@ form .input-name{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
 }
-.contact-btn{
+button {
     width: 120px;
     padding: 10px 25px;
     text-align: center;
@@ -310,7 +310,7 @@ form .input-name{
     text-decoration: none;
     transition: all .6s ease;
 }
-.contact-btn:hover{
+button:hover {
     background-color: #967BB6;
     color: #fff;
 }
